@@ -35,21 +35,23 @@ export default function Index() {
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Discover Endless Possibilities with{" "}
-              <Text className="text-secondary-200">Aora</Text>
+              <Text className="text-secondary-200">
+                Aora
+                <Image
+                  source={images.path}
+                  resizeMode="contain"
+                  style={
+                    {
+                      width: 136,
+                      height: 15,
+                      position: "absolute",
+                      bottom: "-8px",
+                      right: "-32px",
+                    } as any
+                  }
+                />
+              </Text>
             </Text>
-            <Image
-              source={images.path}
-              resizeMode="contain"
-              style={
-                {
-                  width: 136,
-                  height: 15,
-                  position: "absolute",
-                  bottom: "-8px",
-                  right: "12px",
-                } as any
-              }
-            />
           </View>
 
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
